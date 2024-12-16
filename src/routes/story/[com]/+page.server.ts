@@ -1,3 +1,3 @@
-export function load({ params }): { com: string } {
-	return params;
+export async function load({ params }) {
+	return params as { com: string };
 }
