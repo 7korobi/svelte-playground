@@ -5,7 +5,6 @@ test('/story page', async ({ page }) => {
 	await expect(page).toHaveScreenshot();
 });
 
-
 test('/story/Header page', async ({ page }) => {
 	await page.goto('/story/Header');
 	await expect(page).toHaveScreenshot();
