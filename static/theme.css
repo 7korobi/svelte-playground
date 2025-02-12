@@ -1,0 +1,861 @@
+.dark {
+	.admin {
+
+		.hue0 {
+			--bg-color:   oklch( 10%  3%   0 / 100%);
+			--form-color: oklch( 25% 20%   0 / 100%);
+			--pen-color:  oklch( 83% 14%   0 / 100%);
+			--bold-color: oklch( 70%  2%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 10%  3%  45 / 100%);
+			--form-color: oklch( 25% 20%  45 / 100%);
+			--pen-color:  oklch( 83% 14%  45 / 100%);
+			--bold-color: oklch( 70%  2%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 10%  3%  90 / 100%);
+			--form-color: oklch( 25% 20%  90 / 100%);
+			--pen-color:  oklch( 83% 14%  90 / 100%);
+			--bold-color: oklch( 70%  2%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 10%  3% 120 / 100%);
+			--form-color: oklch( 25% 20% 120 / 100%);
+			--pen-color:  oklch( 83% 14% 120 / 100%);
+			--bold-color: oklch( 70%  2% 120 / 100%);
+		}
+		.hue150, .MAKER {
+			--bg-color:   oklch( 10%  3% 150 / 100%);
+			--form-color: oklch( 25% 20% 150 / 100%);
+			--pen-color:  oklch( 83% 14% 150 / 100%);
+			--bold-color: oklch( 70%  2% 150 / 100%);
+		}
+		.hue200, .TITLE {
+			--bg-color:   oklch( 10%  3% 200 / 100%);
+			--form-color: oklch( 25% 20% 200 / 100%);
+			--pen-color:  oklch( 83% 14% 200 / 100%);
+			--bold-color: oklch( 70%  2% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 10%  3% 255 / 100%);
+			--form-color: oklch( 25% 20% 255 / 100%);
+			--pen-color:  oklch( 83% 14% 255 / 100%);
+			--bold-color: oklch( 70%  2% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 10%  3% 290 / 100%);
+			--form-color: oklch( 25% 20% 290 / 100%);
+			--pen-color:  oklch( 83% 14% 290 / 100%);
+			--bold-color: oklch( 70%  2% 290 / 100%);
+		}
+		.hue320, .ADMIN {
+			--bg-color:   oklch( 10%  3% 320 / 100%);
+			--form-color: oklch( 25% 20% 320 / 100%);
+			--pen-color:  oklch( 83% 14% 320 / 100%);
+			--bold-color: oklch( 70%  2% 320 / 100%);
+		}
+	}
+	.open {
+
+		.hue0 {
+			--bg-color:   oklch( 33% 22%   0 / 100%);
+			--form-color: oklch( 22%  3%   0 / 100%);
+			--pen-color:  oklch( 95%  8%   0 / 100%);
+			--bold-color: oklch( 90% 30%   0 / 100%);
+		}
+		.hue45, .VSAY {
+			--bg-color:   oklch( 33% 22%  45 / 100%);
+			--form-color: oklch( 22%  3%  45 / 100%);
+			--pen-color:  oklch( 95%  8%  45 / 100%);
+			--bold-color: oklch( 90% 30%  45 / 100%);
+		}
+		.hue90, .SSAY {
+			--bg-color:   oklch( 33% 22%  90 / 100%);
+			--form-color: oklch( 22%  3%  90 / 100%);
+			--pen-color:  oklch( 95%  8%  90 / 100%);
+			--bold-color: oklch( 90% 30%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 33% 22% 120 / 100%);
+			--form-color: oklch( 22%  3% 120 / 100%);
+			--pen-color:  oklch( 95%  8% 120 / 100%);
+			--bold-color: oklch( 90% 30% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 33% 22% 150 / 100%);
+			--form-color: oklch( 22%  3% 150 / 100%);
+			--pen-color:  oklch( 95%  8% 150 / 100%);
+			--bold-color: oklch( 90% 30% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 33% 22% 200 / 100%);
+			--form-color: oklch( 22%  3% 200 / 100%);
+			--pen-color:  oklch( 95%  8% 200 / 100%);
+			--bold-color: oklch( 90% 30% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 33% 22% 255 / 100%);
+			--form-color: oklch( 22%  3% 255 / 100%);
+			--pen-color:  oklch( 95%  8% 255 / 100%);
+			--bold-color: oklch( 90% 30% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 33% 22% 290 / 100%);
+			--form-color: oklch( 22%  3% 290 / 100%);
+			--pen-color:  oklch( 95%  8% 290 / 100%);
+			--bold-color: oklch( 90% 30% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 33% 22% 320 / 100%);
+			--form-color: oklch( 22%  3% 320 / 100%);
+			--pen-color:  oklch( 95%  8% 320 / 100%);
+			--bold-color: oklch( 90% 30% 320 / 100%);
+		}
+	}
+	.wisper {
+
+		.hue0, .WSAY {
+			--bg-color:   oklch( 25% 20%   0 / 100%);
+			--form-color: oklch( 33% 22%   0 / 100%);
+			--pen-color:  oklch( 83% 14%   0 / 100%);
+			--bold-color: oklch( 90% 30%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 25% 20%  45 / 100%);
+			--form-color: oklch( 33% 22%  45 / 100%);
+			--pen-color:  oklch( 83% 14%  45 / 100%);
+			--bold-color: oklch( 90% 30%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 25% 20%  90 / 100%);
+			--form-color: oklch( 33% 22%  90 / 100%);
+			--pen-color:  oklch( 83% 14%  90 / 100%);
+			--bold-color: oklch( 90% 30%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 25% 20% 120 / 100%);
+			--form-color: oklch( 33% 22% 120 / 100%);
+			--pen-color:  oklch( 83% 14% 120 / 100%);
+			--bold-color: oklch( 90% 30% 120 / 100%);
+		}
+		.hue150, .XSAY {
+			--bg-color:   oklch( 25% 20% 150 / 100%);
+			--form-color: oklch( 33% 22% 150 / 100%);
+			--pen-color:  oklch( 83% 14% 150 / 100%);
+			--bold-color: oklch( 90% 30% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 25% 20% 200 / 100%);
+			--form-color: oklch( 33% 22% 200 / 100%);
+			--pen-color:  oklch( 83% 14% 200 / 100%);
+			--bold-color: oklch( 90% 30% 200 / 100%);
+		}
+		.hue255, .GSAY {
+			--bg-color:   oklch( 25% 20% 255 / 100%);
+			--form-color: oklch( 33% 22% 255 / 100%);
+			--pen-color:  oklch( 83% 14% 255 / 100%);
+			--bold-color: oklch( 90% 30% 255 / 100%);
+		}
+		.hue290, .PSAY {
+			--bg-color:   oklch( 25% 20% 290 / 100%);
+			--form-color: oklch( 33% 22% 290 / 100%);
+			--pen-color:  oklch( 83% 14% 290 / 100%);
+			--bold-color: oklch( 90% 30% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 25% 20% 320 / 100%);
+			--form-color: oklch( 33% 22% 320 / 100%);
+			--pen-color:  oklch( 83% 14% 320 / 100%);
+			--bold-color: oklch( 90% 30% 320 / 100%);
+		}
+	}
+	.think {
+
+		.hue0 {
+			--bg-color:   oklch( 22%  3%   0 / 100%);
+			--form-color: oklch( 25% 20%   0 / 100%);
+			--pen-color:  oklch( 83% 14%   0 / 100%);
+			--bold-color: oklch( 90% 30%   0 / 100%);
+		}
+		.hue45, .TSAY {
+			--bg-color:   oklch( 22%  3%  45 / 100%);
+			--form-color: oklch( 25% 20%  45 / 100%);
+			--pen-color:  oklch( 83% 14%  45 / 100%);
+			--bold-color: oklch( 90% 30%  45 / 100%);
+		}
+		.hue90, .AIM {
+			--bg-color:   oklch( 22%  3%  90 / 100%);
+			--form-color: oklch( 25% 20%  90 / 100%);
+			--pen-color:  oklch( 83% 14%  90 / 100%);
+			--bold-color: oklch( 90% 30%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 22%  3% 120 / 100%);
+			--form-color: oklch( 25% 20% 120 / 100%);
+			--pen-color:  oklch( 83% 14% 120 / 100%);
+			--bold-color: oklch( 90% 30% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 22%  3% 150 / 100%);
+			--form-color: oklch( 25% 20% 150 / 100%);
+			--pen-color:  oklch( 83% 14% 150 / 100%);
+			--bold-color: oklch( 90% 30% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 22%  3% 200 / 100%);
+			--form-color: oklch( 25% 20% 200 / 100%);
+			--pen-color:  oklch( 83% 14% 200 / 100%);
+			--bold-color: oklch( 90% 30% 200 / 100%);
+		}
+		.hue255, .GAIM {
+			--bg-color:   oklch( 22%  3% 255 / 100%);
+			--form-color: oklch( 25% 20% 255 / 100%);
+			--pen-color:  oklch( 83% 14% 255 / 100%);
+			--bold-color: oklch( 90% 30% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 22%  3% 290 / 100%);
+			--form-color: oklch( 25% 20% 290 / 100%);
+			--pen-color:  oklch( 83% 14% 290 / 100%);
+			--bold-color: oklch( 90% 30% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 22%  3% 320 / 100%);
+			--form-color: oklch( 25% 20% 320 / 100%);
+			--pen-color:  oklch( 83% 14% 320 / 100%);
+			--bold-color: oklch( 90% 30% 320 / 100%);
+		}
+	}
+	.button {
+
+		.hue0 {
+			--bg-color:   oklch( 33% 22%   0 / 100%);
+			--form-color: oklch( 25% 20%   0 / 100%);
+			--pen-color:  oklch( 83% 14%   0 / 100%);
+			--bold-color: oklch( 90% 30%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 33% 22%  45 / 100%);
+			--form-color: oklch( 25% 20%  45 / 100%);
+			--pen-color:  oklch( 83% 14%  45 / 100%);
+			--bold-color: oklch( 90% 30%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 33% 22%  90 / 100%);
+			--form-color: oklch( 25% 20%  90 / 100%);
+			--pen-color:  oklch( 83% 14%  90 / 100%);
+			--bold-color: oklch( 90% 30%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 33% 22% 120 / 100%);
+			--form-color: oklch( 25% 20% 120 / 100%);
+			--pen-color:  oklch( 83% 14% 120 / 100%);
+			--bold-color: oklch( 90% 30% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 33% 22% 150 / 100%);
+			--form-color: oklch( 25% 20% 150 / 100%);
+			--pen-color:  oklch( 83% 14% 150 / 100%);
+			--bold-color: oklch( 90% 30% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 33% 22% 200 / 100%);
+			--form-color: oklch( 25% 20% 200 / 100%);
+			--pen-color:  oklch( 83% 14% 200 / 100%);
+			--bold-color: oklch( 90% 30% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 33% 22% 255 / 100%);
+			--form-color: oklch( 25% 20% 255 / 100%);
+			--pen-color:  oklch( 83% 14% 255 / 100%);
+			--bold-color: oklch( 90% 30% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 33% 22% 290 / 100%);
+			--form-color: oklch( 25% 20% 290 / 100%);
+			--pen-color:  oklch( 83% 14% 290 / 100%);
+			--bold-color: oklch( 90% 30% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 33% 22% 320 / 100%);
+			--form-color: oklch( 25% 20% 320 / 100%);
+			--pen-color:  oklch( 83% 14% 320 / 100%);
+			--bold-color: oklch( 90% 30% 320 / 100%);
+		}
+	}
+}
+.std {
+	.admin {
+
+		.hue0 {
+			--bg-color:   oklch( 70%  2%   0 / 100%);
+			--form-color: oklch( 64% 18%   0 / 100%);
+			--pen-color:  oklch( 22%  3%   0 / 100%);
+			--bold-color: oklch( 25% 20%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 70%  2%  45 / 100%);
+			--form-color: oklch( 64% 18%  45 / 100%);
+			--pen-color:  oklch( 22%  3%  45 / 100%);
+			--bold-color: oklch( 25% 20%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 70%  2%  90 / 100%);
+			--form-color: oklch( 64% 18%  90 / 100%);
+			--pen-color:  oklch( 22%  3%  90 / 100%);
+			--bold-color: oklch( 25% 20%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 70%  2% 120 / 100%);
+			--form-color: oklch( 64% 18% 120 / 100%);
+			--pen-color:  oklch( 22%  3% 120 / 100%);
+			--bold-color: oklch( 25% 20% 120 / 100%);
+		}
+		.hue150, .MAKER {
+			--bg-color:   oklch( 70%  2% 150 / 100%);
+			--form-color: oklch( 64% 18% 150 / 100%);
+			--pen-color:  oklch( 22%  3% 150 / 100%);
+			--bold-color: oklch( 25% 20% 150 / 100%);
+		}
+		.hue200, .TITLE {
+			--bg-color:   oklch( 70%  2% 200 / 100%);
+			--form-color: oklch( 64% 18% 200 / 100%);
+			--pen-color:  oklch( 22%  3% 200 / 100%);
+			--bold-color: oklch( 25% 20% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 70%  2% 255 / 100%);
+			--form-color: oklch( 64% 18% 255 / 100%);
+			--pen-color:  oklch( 22%  3% 255 / 100%);
+			--bold-color: oklch( 25% 20% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 70%  2% 290 / 100%);
+			--form-color: oklch( 64% 18% 290 / 100%);
+			--pen-color:  oklch( 22%  3% 290 / 100%);
+			--bold-color: oklch( 25% 20% 290 / 100%);
+		}
+		.hue320, .ADMIN {
+			--bg-color:   oklch( 70%  2% 320 / 100%);
+			--form-color: oklch( 64% 18% 320 / 100%);
+			--pen-color:  oklch( 22%  3% 320 / 100%);
+			--bold-color: oklch( 25% 20% 320 / 100%);
+		}
+	}
+	.open {
+
+		.hue0 {
+			--bg-color:   oklch( 64% 18%   0 / 100%);
+			--form-color: oklch( 70%  2%   0 / 100%);
+			--pen-color:  oklch( 22%  3%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45, .VSAY {
+			--bg-color:   oklch( 64% 18%  45 / 100%);
+			--form-color: oklch( 70%  2%  45 / 100%);
+			--pen-color:  oklch( 22%  3%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90, .SSAY {
+			--bg-color:   oklch( 64% 18%  90 / 100%);
+			--form-color: oklch( 70%  2%  90 / 100%);
+			--pen-color:  oklch( 22%  3%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 64% 18% 120 / 100%);
+			--form-color: oklch( 70%  2% 120 / 100%);
+			--pen-color:  oklch( 22%  3% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 64% 18% 150 / 100%);
+			--form-color: oklch( 70%  2% 150 / 100%);
+			--pen-color:  oklch( 22%  3% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 64% 18% 200 / 100%);
+			--form-color: oklch( 70%  2% 200 / 100%);
+			--pen-color:  oklch( 22%  3% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 64% 18% 255 / 100%);
+			--form-color: oklch( 70%  2% 255 / 100%);
+			--pen-color:  oklch( 22%  3% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 64% 18% 290 / 100%);
+			--form-color: oklch( 70%  2% 290 / 100%);
+			--pen-color:  oklch( 22%  3% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 64% 18% 320 / 100%);
+			--form-color: oklch( 70%  2% 320 / 100%);
+			--pen-color:  oklch( 22%  3% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+	.wisper {
+
+		.hue0, .WSAY {
+			--bg-color:   oklch( 55% 18%   0 / 100%);
+			--form-color: oklch( 64% 18%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 55% 18%  45 / 100%);
+			--form-color: oklch( 64% 18%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 55% 18%  90 / 100%);
+			--form-color: oklch( 64% 18%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 55% 18% 120 / 100%);
+			--form-color: oklch( 64% 18% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150, .XSAY {
+			--bg-color:   oklch( 55% 18% 150 / 100%);
+			--form-color: oklch( 64% 18% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 55% 18% 200 / 100%);
+			--form-color: oklch( 64% 18% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255, .GSAY {
+			--bg-color:   oklch( 55% 18% 255 / 100%);
+			--form-color: oklch( 64% 18% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290, .PSAY {
+			--bg-color:   oklch( 55% 18% 290 / 100%);
+			--form-color: oklch( 64% 18% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 55% 18% 320 / 100%);
+			--form-color: oklch( 64% 18% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+	.think {
+
+		.hue0 {
+			--bg-color:   oklch( 55%  6%   0 / 100%);
+			--form-color: oklch( 55% 18%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45, .TSAY {
+			--bg-color:   oklch( 55%  6%  45 / 100%);
+			--form-color: oklch( 55% 18%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90, .AIM {
+			--bg-color:   oklch( 55%  6%  90 / 100%);
+			--form-color: oklch( 55% 18%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 55%  6% 120 / 100%);
+			--form-color: oklch( 55% 18% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 55%  6% 150 / 100%);
+			--form-color: oklch( 55% 18% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 55%  6% 200 / 100%);
+			--form-color: oklch( 55% 18% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255, .GAIM {
+			--bg-color:   oklch( 55%  6% 255 / 100%);
+			--form-color: oklch( 55% 18% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 55%  6% 290 / 100%);
+			--form-color: oklch( 55% 18% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 55%  6% 320 / 100%);
+			--form-color: oklch( 55% 18% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+	.button {
+
+		.hue0 {
+			--bg-color:   oklch( 64% 18%   0 / 100%);
+			--form-color: oklch( 55% 18%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 64% 18%  45 / 100%);
+			--form-color: oklch( 55% 18%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 64% 18%  90 / 100%);
+			--form-color: oklch( 55% 18%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 64% 18% 120 / 100%);
+			--form-color: oklch( 55% 18% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 64% 18% 150 / 100%);
+			--form-color: oklch( 55% 18% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 64% 18% 200 / 100%);
+			--form-color: oklch( 55% 18% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 64% 18% 255 / 100%);
+			--form-color: oklch( 55% 18% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 64% 18% 290 / 100%);
+			--form-color: oklch( 55% 18% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 64% 18% 320 / 100%);
+			--form-color: oklch( 55% 18% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+}
+.snow {
+	.admin {
+
+		.hue0 {
+			--bg-color:   oklch( 99%  2%   0 / 100%);
+			--form-color: oklch( 83% 14%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 55% 18%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 99%  2%  45 / 100%);
+			--form-color: oklch( 83% 14%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 55% 18%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 99%  2%  90 / 100%);
+			--form-color: oklch( 83% 14%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 55% 18%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 99%  2% 120 / 100%);
+			--form-color: oklch( 83% 14% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 55% 18% 120 / 100%);
+		}
+		.hue150, .MAKER {
+			--bg-color:   oklch( 99%  2% 150 / 100%);
+			--form-color: oklch( 83% 14% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 55% 18% 150 / 100%);
+		}
+		.hue200, .TITLE {
+			--bg-color:   oklch( 99%  2% 200 / 100%);
+			--form-color: oklch( 83% 14% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 55% 18% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 99%  2% 255 / 100%);
+			--form-color: oklch( 83% 14% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 55% 18% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 99%  2% 290 / 100%);
+			--form-color: oklch( 83% 14% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 55% 18% 290 / 100%);
+		}
+		.hue320, .ADMIN {
+			--bg-color:   oklch( 99%  2% 320 / 100%);
+			--form-color: oklch( 83% 14% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 55% 18% 320 / 100%);
+		}
+	}
+	.open {
+
+		.hue0 {
+			--bg-color:   oklch( 83% 14%   0 / 100%);
+			--form-color: oklch( 99%  2%   0 / 100%);
+			--pen-color:  oklch( 40%  2%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45, .VSAY {
+			--bg-color:   oklch( 83% 14%  45 / 100%);
+			--form-color: oklch( 99%  2%  45 / 100%);
+			--pen-color:  oklch( 40%  2%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90, .SSAY {
+			--bg-color:   oklch( 83% 14%  90 / 100%);
+			--form-color: oklch( 99%  2%  90 / 100%);
+			--pen-color:  oklch( 40%  2%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 83% 14% 120 / 100%);
+			--form-color: oklch( 99%  2% 120 / 100%);
+			--pen-color:  oklch( 40%  2% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 83% 14% 150 / 100%);
+			--form-color: oklch( 99%  2% 150 / 100%);
+			--pen-color:  oklch( 40%  2% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 83% 14% 200 / 100%);
+			--form-color: oklch( 99%  2% 200 / 100%);
+			--pen-color:  oklch( 40%  2% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 83% 14% 255 / 100%);
+			--form-color: oklch( 99%  2% 255 / 100%);
+			--pen-color:  oklch( 40%  2% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 83% 14% 290 / 100%);
+			--form-color: oklch( 99%  2% 290 / 100%);
+			--pen-color:  oklch( 40%  2% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 83% 14% 320 / 100%);
+			--form-color: oklch( 99%  2% 320 / 100%);
+			--pen-color:  oklch( 40%  2% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+	.wisper {
+
+		.hue0, .WSAY {
+			--bg-color:   oklch( 64% 18%   0 / 100%);
+			--form-color: oklch( 83% 14%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 64% 18%  45 / 100%);
+			--form-color: oklch( 83% 14%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 64% 18%  90 / 100%);
+			--form-color: oklch( 83% 14%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 64% 18% 120 / 100%);
+			--form-color: oklch( 83% 14% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150, .XSAY {
+			--bg-color:   oklch( 64% 18% 150 / 100%);
+			--form-color: oklch( 83% 14% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 64% 18% 200 / 100%);
+			--form-color: oklch( 83% 14% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255, .GSAY {
+			--bg-color:   oklch( 64% 18% 255 / 100%);
+			--form-color: oklch( 83% 14% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290, .PSAY {
+			--bg-color:   oklch( 64% 18% 290 / 100%);
+			--form-color: oklch( 83% 14% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 64% 18% 320 / 100%);
+			--form-color: oklch( 83% 14% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+	.think {
+
+		.hue0 {
+			--bg-color:   oklch( 70%  5%   0 / 100%);
+			--form-color: oklch( 64% 18%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45, .TSAY {
+			--bg-color:   oklch( 70%  5%  45 / 100%);
+			--form-color: oklch( 64% 18%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90, .AIM {
+			--bg-color:   oklch( 70%  5%  90 / 100%);
+			--form-color: oklch( 64% 18%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 70%  5% 120 / 100%);
+			--form-color: oklch( 64% 18% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 70%  5% 150 / 100%);
+			--form-color: oklch( 64% 18% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 70%  5% 200 / 100%);
+			--form-color: oklch( 64% 18% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255, .GAIM {
+			--bg-color:   oklch( 70%  5% 255 / 100%);
+			--form-color: oklch( 64% 18% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 70%  5% 290 / 100%);
+			--form-color: oklch( 64% 18% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 70%  5% 320 / 100%);
+			--form-color: oklch( 64% 18% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+	.button {
+
+		.hue0 {
+			--bg-color:   oklch( 83% 14%   0 / 100%);
+			--form-color: oklch( 64% 18%   0 / 100%);
+			--pen-color:  oklch( 25% 20%   0 / 100%);
+			--bold-color: oklch( 33% 22%   0 / 100%);
+		}
+		.hue45 {
+			--bg-color:   oklch( 83% 14%  45 / 100%);
+			--form-color: oklch( 64% 18%  45 / 100%);
+			--pen-color:  oklch( 25% 20%  45 / 100%);
+			--bold-color: oklch( 33% 22%  45 / 100%);
+		}
+		.hue90 {
+			--bg-color:   oklch( 83% 14%  90 / 100%);
+			--form-color: oklch( 64% 18%  90 / 100%);
+			--pen-color:  oklch( 25% 20%  90 / 100%);
+			--bold-color: oklch( 33% 22%  90 / 100%);
+		}
+		.hue120 {
+			--bg-color:   oklch( 83% 14% 120 / 100%);
+			--form-color: oklch( 64% 18% 120 / 100%);
+			--pen-color:  oklch( 25% 20% 120 / 100%);
+			--bold-color: oklch( 33% 22% 120 / 100%);
+		}
+		.hue150 {
+			--bg-color:   oklch( 83% 14% 150 / 100%);
+			--form-color: oklch( 64% 18% 150 / 100%);
+			--pen-color:  oklch( 25% 20% 150 / 100%);
+			--bold-color: oklch( 33% 22% 150 / 100%);
+		}
+		.hue200 {
+			--bg-color:   oklch( 83% 14% 200 / 100%);
+			--form-color: oklch( 64% 18% 200 / 100%);
+			--pen-color:  oklch( 25% 20% 200 / 100%);
+			--bold-color: oklch( 33% 22% 200 / 100%);
+		}
+		.hue255 {
+			--bg-color:   oklch( 83% 14% 255 / 100%);
+			--form-color: oklch( 64% 18% 255 / 100%);
+			--pen-color:  oklch( 25% 20% 255 / 100%);
+			--bold-color: oklch( 33% 22% 255 / 100%);
+		}
+		.hue290 {
+			--bg-color:   oklch( 83% 14% 290 / 100%);
+			--form-color: oklch( 64% 18% 290 / 100%);
+			--pen-color:  oklch( 25% 20% 290 / 100%);
+			--bold-color: oklch( 33% 22% 290 / 100%);
+		}
+		.hue320 {
+			--bg-color:   oklch( 83% 14% 320 / 100%);
+			--form-color: oklch( 64% 18% 320 / 100%);
+			--pen-color:  oklch( 25% 20% 320 / 100%);
+			--bold-color: oklch( 33% 22% 320 / 100%);
+		}
+	}
+}
