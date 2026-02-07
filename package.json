@@ -41,6 +41,6 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
-		"wrangler": "^3.114.5"
+		"wrangler": "^3.114.17"
 	}
 }
